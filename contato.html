@@ -3,53 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato - Blog Crescer Empreender</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <meta name="description" content="Entre em contato com Kadson Pedro.">
+    <title>Contato - Kadson Pedro</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- Cabeçalho -->
-    <header>
-        <img src="https://i.postimg.cc/qByk7Fsm/2.png" alt="Logotipo do Blog">
-        <h1>Blog - Crescer Empreender</h1>
-        <h2>Inspiração para quem quer crescer e realizar.</h2>
+    <header class="header">
+        <div class="container logo-container">
+            <img src="https://i.postimg.cc/X7NsVqnK/logo-blog-crescer-e-empreender.png" alt="Logotipo Kadson Pedro" class="logo">
+            <h1>Entre em Contato</h1>
+            <p>Estamos aqui para ouvir você!</p>
+        </div>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="contato.html" class="active">Contato</a></li>
+                <li><a href="politica.html">Política de Privacidade</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <!-- Navegação -->
-    <nav>
-        <a href="index.html">Início</a>
-        <a href="sobre.html">Sobre</a>
-        <a href="produtos.html">Produtos</a>
-        <a href="contato.html" class="active">Contato</a>
-        <a href="politica.html">Política de Privacidade</a>
-    </nav>
-
-    <!-- Seção Contato -->
-    <div class="container contact-section">
-        <h2>Fale Conosco</h2>
-        <p>Estamos aqui para ajudar! Envie sua mensagem ou pergunta e entraremos em contato o mais breve possível.</p>
-        
-        <form action="https://formspree.io/f/mvggeazb" method="POST" class="contact-form">
-            <div class="form-group">
-                <label for="name">Nome Completo</label>
-                <input type="text" id="name" name="name" placeholder="Digite seu nome completo" required>
-            </div>
-            <div class="form-group">
-                <label for="email">E-mail</label>
-                <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
-            </div>
-            <div class="form-group">
-                <label for="message">Mensagem</label>
-                <textarea id="message" name="message" placeholder="Escreva sua mensagem aqui" rows="5" required></textarea>
-            </div>
-            <button type="submit" class="btn">Enviar Mensagem</button>
-        </form>
-    </div>
+    <!-- Conteúdo principal -->
+    <main class="contact-section">
+        <div class="container">
+            <h2>Fale Conosco</h2>
+            <p>Preencha o formulário abaixo para enviar sua mensagem. Responderemos o mais rápido possível!</p>
+            
+            <form action="https://formspree.io/f/mvggeazb" method="POST" class="contact-form">
+                <!-- Nome -->
+                <div class="form-group">
+                    <label for="nome">Seu Nome</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                </div>
+                <!-- E-mail -->
+                <div class="form-group">
+                    <label for="email">Seu E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+                </div>
+                <!-- Mensagem -->
+                <div class="form-group">
+                    <label for="mensagem">Sua Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite sua mensagem" required></textarea>
+                </div>
+                <!-- Botão -->
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </div>
+    </main>
 
     <!-- Rodapé -->
-    <footer>
-        <p>© 2025 Blog Crescer Empreender | Kadson Pedro. Todos os direitos reservados.</p>
-        <a href="politica.html">Política de Privacidade</a>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Blog Crescer e Empreender | Kadson Pedro. Todos os direitos reservados.</p>
+        </div>
     </footer>
 </body>
 </html>
-
