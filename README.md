@@ -1,15 +1,13 @@
-# Blog Kadson Pedro
-Blog criado para compartilhar ideias sobre **mentalidade**, **educação**, **produtividade**, e muito mais.
+# Crescer Empreender Blog
 
-## 🔗 Link do Blog
-[Acesse o blog aqui](https://kadsonpedro.com.br)
+Bem-vindo ao **Crescer Empreender Blog**!  
+Nosso objetivo é inspirar e capacitar pessoas com ideias, ferramentas e estratégias para crescerem pessoal e profissionalmente.
 
-## 📖 Sobre
-Este blog é um espaço para explorar estratégias práticas e reflexões para o desenvolvimento pessoal e profissional.
+## Temas abordados
+- Empreendedorismo
+- Produtividade
+- Educação financeira
+- Mentalidade positiva
 
-## 🛠️ Tecnologias
-- **HTML**: Estrutura do blog.
-- **CSS**: Estilos visuais.
-
-## 📝 Como contribuir
-Sinta-se à vontade para abrir uma issue ou fazer um fork do repositório para sugerir melhorias.
+### Acesse o blog
+[https://kpedro.github.io/crescer-empreender-blog/](https://kpedro.github.io/crescer-empreender-blog/)
