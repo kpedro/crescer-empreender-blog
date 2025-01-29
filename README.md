@@ -1,7 +1,7 @@
 # Crescer Empreender Blog
 
 Bem-vindo ao **Crescer Empreender Blog**!  
-<<<<<<< HEAD
+
 Nosso objetivo é inspirar e capacitar pessoas com ideias, ferramentas e estratégias para crescerem pessoal e profissionalmente.
 
 ## Temas abordados
@@ -30,4 +30,3 @@ Nosso objetivo é inspirar e capacitar pessoas a alcançarem seus objetivos pess
 
 ---
 **Inspiração para quem quer crescer e realizar!**
->>>>>>> d507ed9d2864934ad738a1a17c8112788c7fe26c
